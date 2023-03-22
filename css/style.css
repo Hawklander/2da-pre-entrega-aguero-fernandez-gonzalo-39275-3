@@ -1,0 +1,334 @@
+
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    
+   
+    
+}
+
+
+
+
+
+/* Fuentes desde import  */
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&display=swap');
+
+
+/* Barra de navegacion */
+
+
+header {
+
+    text-align: center;
+    text-align: justify;
+    
+   
+}
+
+.navper ul  a {
+
+    font-family: 'Raleway', sans-serif;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+
+.logoa{
+
+     font-family: 'EB Garamond', serif;
+     font-weight: 600;
+     font-size: xx-large;
+     color:#0250c9;
+     
+     
+
+}
+
+
+/* configuracion de estilo Primer HERO banner */
+
+.banner { background: url(../imagenes/lion-7542944_960_720.jpg)fixed center/cover;
+    height: 1000px; 
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.banner::before{
+
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #2e2c33;
+    opacity: 0.8 ;
+}
+
+.banner__info { 
+
+    padding: 0.3em;
+    position: absolute;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.banner__title{
+
+    line-height: 1.5em;
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif ;
+}
+
+.banner__p {
+
+    line-height: 2em;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.link {
+    padding: 50px;
+    color: #fff;
+    font-size: 25px;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+   
+
+}
+
+.link:hover{
+
+    color: bisque;
+}
+
+.link a {
+
+    padding: 10px;
+    margin: 50pxs;
+
+
+
+}
+
+/* Boton configuracion general */
+
+
+.btn3 a{
+
+    text-decoration: none;
+    color: azure;
+   
+}
+
+.btn5 {
+
+    margin-top: 200px;
+}
+
+
+/* segundo Hero banner */
+
+.banner2 { background: url(../imagenes/wolf-7739013_960_720.jpg)fixed center/cover;
+    height: 700px; 
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.banner2::before{
+
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #2e2c33;
+    opacity: 0.8 ;
+}
+
+.banner2__info { 
+
+    padding: 0.3em;
+    position: absolute;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.banner2__title{
+
+    line-height: 1.5;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 100px;
+}
+
+.banner2__p {
+
+    line-height: 2em;
+    font-size: 0.9;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+    
+}
+
+
+
+/* Banner de contactos */
+
+.banner3 { background: url(../imagenes/wolf-7739013_960_720.jpg)fixed center/cover;
+    height: 1080px; 
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.banner3::before{
+
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #2e2c33;
+    opacity: 0.8 ;
+}
+
+.banner3__info { 
+
+    padding: 0.3em;
+    position: absolute;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.banner3__title{
+
+    line-height: 1.5;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 70px;
+}
+
+.banner3__p {
+
+    line-height: 2em;
+    font-size: 0.9;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* banner de sobre nosotros */
+
+.banner4 { background: url(../imagenes/lion-7766810_960_720.jpg)fixed center/cover;
+    height: 1080px; 
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.banner4::before{
+
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #2e2c33;
+    opacity: 0.8 ;
+}
+
+.banner4__info { 
+
+    padding: 0.3em;
+    position: absolute;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.banner4__title{
+
+    line-height: 1.5;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 70px;
+}
+
+.banner4__p {
+
+    line-height: 2em;
+    font-size: 0.9;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Banner de servicios */
+
+.banner5 { background: url(../imagenes/tiger_pack.webp)fixed center/cover;
+    height: 1080px; 
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.banner5::before{
+
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #2e2c33;
+    opacity: 0.8 ;
+}
+
+.banner5__info { 
+
+    padding: 0.3em;
+    position: absolute;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.banner5__title{
+
+    line-height: 1.5;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 70px;
+}
+
+.banner5__p {
+
+    line-height: 2em;
+    font-size: 0.9;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+
