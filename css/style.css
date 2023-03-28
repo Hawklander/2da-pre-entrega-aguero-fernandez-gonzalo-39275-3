@@ -19,6 +19,18 @@
   @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&display=swap');
 
 
+@media screen (max-width 380)  { 
+
+    .banner {
+
+        color:#0250c9;
+        font-family: 'EB Garamond', serif;
+        
+        
+    }
+    
+}
+
 /* Barra de navegacion */
 
 
