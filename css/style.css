@@ -19,17 +19,40 @@
   @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&display=swap');
 
 
-@media screen (max-width 380)  { 
+ /* Queries */
 
-    .banner {
+  @media screen and (max-width: 380px) {
 
-        color:#0250c9;
-        font-family: 'EB Garamond', serif;
-        
+    .parrafo__sobrenosotros {
+
+        margin-bottom: 6em;
         
     }
+
+    .h3-custom {
+        margin-top: 3.5em;
+    }
+
+
     
-}
+  }
+  @media screen and (max-width: 380px) {
+
+    .btn3 {
+
+        display: none;
+        
+    }
+
+    .custom-line {
+
+        display: none;
+         
+    }
+    
+  }
+
+    
 
 /* Barra de navegacion */
 
@@ -341,6 +364,17 @@ header {
 
 
 
+.duda {
 
+    display: inline-flex;
+    
+    
+
+}
+
+.duda div {
+
+    margin: 10px;
+}
 
 
