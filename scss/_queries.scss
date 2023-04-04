@@ -9,7 +9,17 @@
   }
   
   @media screen and (max-width: 380px) {
-    .btn3, .custom-line {
+    .btn3, .custom-line  {
       display: none;
     }
+    
+  }
+
+  @media screen and (max-width: 380px) {
+
+    .carrusel_custom {
+
+        display: none;
+    }
+    
   }

@@ -8,8 +8,8 @@
   font-family: "Roboto", sans-serif;
 }
 
-
-
+/* Fuentes desde import  */
+/* Queries */
 /* Barra de navegacion */
 header {
   text-align: center;
@@ -267,6 +267,11 @@ header {
 }
 @media screen and (max-width: 380px) {
   .btn3, .custom-line {
+    display: none;
+  }
+}
+@media screen and (max-width: 380px) {
+  .carrusel_custom {
     display: none;
   }
 }
