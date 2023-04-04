@@ -29,7 +29,6 @@ header {
   align-items: center;
   justify-content: center;
 }
-
 .banner::before {
   content: "";
   height: 100%;
@@ -67,11 +66,9 @@ header {
   font-family: "Roboto", sans-serif;
   position: relative;
 }
-
 .link:hover {
   color: bisque;
 }
-
 .link a {
   padding: 10px;
   margin: 50pxs;
@@ -96,7 +93,6 @@ header {
   align-items: center;
   justify-content: center;
 }
-
 .banner2::before {
   content: "";
   height: 100%;
@@ -137,7 +133,6 @@ header {
   align-items: center;
   justify-content: center;
 }
-
 .banner3::before {
   content: "";
   height: 100%;
@@ -177,7 +172,6 @@ header {
   align-items: center;
   justify-content: center;
 }
-
 .banner4::before {
   content: "";
   height: 100%;
@@ -217,7 +211,6 @@ header {
   align-items: center;
   justify-content: center;
 }
-
 .banner5::before {
   content: "";
   height: 100%;
@@ -251,7 +244,6 @@ header {
 .duda {
   display: inline-flex;
 }
-
 .duda div {
   margin: 10px;
 }
@@ -281,6 +273,4 @@ header {
   list-style: none;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
-} 
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
