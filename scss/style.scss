@@ -12,21 +12,7 @@
   
   /* Queries */
   
-  @media screen and (max-width: 380px) {
-    .parrafo__sobrenosotros {
-      margin-bottom: 6em;
-    }
   
-    .h3-custom {
-      margin-top: 3.5em;
-    }
-  }
-  
-  @media screen and (max-width: 380px) {
-    .btn3, .custom-line {
-      display: none;
-    }
-  }
   
   /* Barra de navegacion */
   
@@ -292,3 +278,4 @@
     }
   }
   
+  @import "queries" 
