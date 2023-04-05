@@ -26,7 +26,7 @@
     font-family: 'EB Garamond', serif;
     font-weight: 600;
     font-size: xx-large;
-    color: #0250c9;
+    color: $azulogo;
   }
   
   /* configuracion de estilo Primer HERO banner */
@@ -43,7 +43,7 @@
       content: "";
       height: 100%;
       width: 100%;
-      background: #2e2c33;
+      background: $oscuro;
       opacity: 0.8;
     }
   }
