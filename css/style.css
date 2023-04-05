@@ -1,5 +1,7 @@
 /* importaciones  */
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&display=swap");
+
+/* Queries */
 @media screen and (max-width: 380px) {
   .parrafo__sobrenosotros {
     margin-bottom: 6em;
@@ -18,6 +20,8 @@
     display: none;
   }
 }
+
+/* reset */
 * {
   margin: 0;
   padding: 0;
@@ -27,8 +31,7 @@
   font-family: "Roboto", sans-serif;
 }
 
-/* Fuentes desde import  */
-/* Queries */
+
 /* Barra de navegacion */
 header {
   text-align: center;
