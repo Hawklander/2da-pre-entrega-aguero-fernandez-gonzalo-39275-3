@@ -47,6 +47,24 @@
       opacity: 0.8;
     }
   }
+
+    
+  .banner1 {
+    background: url(../imagenes/lion-7542944_960_720.jpg) fixed (center / cover);
+    height: 700px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    &::before {
+      content: "";
+      height: 100%;
+      width: 100%;
+      background: $oscuro;
+      opacity: 0.8;
+    }
+  }
   
   .banner__info {
     padding: 0.3em;
@@ -102,7 +120,7 @@
   
   .banner2 {
     background: url(../imagenes/wolf-7739013_960_720.jpg) fixed (center / cover);
-    height: 700px;
+    height: 850px;
     position: relative;
     display: flex;
     align-items: center;
@@ -226,7 +244,7 @@
   
   .banner5 {
     background: url(../imagenes/tiger_pack.webp) fixed (center / cover);
-    height: 1080px;
+    height: 950px;
     position: relative;
     display: flex;
     align-items: center;
