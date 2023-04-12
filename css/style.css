@@ -275,6 +275,20 @@ header {
   margin: 10px;
 }
 
+.fotopintura {
+  width: 40%;
+  border-radius: 70%;
+  width: 20%;
+}
+
+.titulo__sabrenosotros {
+  font-weight: 600;
+}
+
+.logosocial {
+  width: 2em;
+}
+
 /*formulario de contacto inicio*/
 #fs-frm input,
 #fs-frm select,
