@@ -22,11 +22,12 @@
     font-weight: 500;
   }
   
-  .logoa {
-    font-family: 'EB Garamond', serif;
-    font-weight: 600;
-    font-size: xx-large;
-    color: $azulogo;
+
+  .logogen {
+
+    width: 10em; 
+    margin-left: -1.8em;
+   
   }
   
   /* configuracion de estilo Primer HERO banner */
@@ -74,12 +75,16 @@
     text-align: center;
     color: $blanco;
   }
+
+  
   
   .banner__title {
     line-height: 1.5em;
     font-size: 3em;
     font-family: "Roboto", sans-serif;
   }
+
+  
   
   .banner__p {
     line-height: 2em;
@@ -419,7 +424,8 @@
       }
 
       /*formulario de contacto final*/
-  
+      
+      
   
 
  
