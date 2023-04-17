@@ -312,6 +312,10 @@ header {
   font-family: "Roboto", sans-serif;
 }
 
+.fondofotter {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
 /*formulario de contacto inicio*/
 #fs-frm input,
 #fs-frm select,
