@@ -30,6 +30,122 @@
     margin-left: -1.8em;
    
   }
+
+
+  .link--1{
+    padding: 0 6px;
+
+    &::before,
+    &::after{
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+        height: 0.1em;
+        width: 0;
+    }
+
+    &::before{
+        left: 0;
+    }
+
+    &::after{
+        background-color: $pink;
+        right: 0;
+    }
+
+    &:hover{
+        color: $pink;
+        
+        &::before{
+            width: 60%;
+            transition: width 250ms ease;
+            background-color: $pink;
+        }
+
+        &::after{
+            width: 100%;
+            background-color: transparent;
+        }
+    }
+}
+
+  /*
+    ** border box
+*/
+*,
+*:before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+.link{
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    width: fit-content;
+    z-index: 0;
+    transition: all 450ms ease;
+
+    &::after,
+    &::before{
+        content: '';
+        display: block;
+        position: absolute;
+        transition: width 540ms, opacity 300ms ease;
+    }
+}
+
+
+/* LINK 2    */
+.link--2{
+    &::before,
+    &::after{
+        height: 0.1em;
+        bottom: -1px;
+    }
+
+    &::before{
+        width: 0;
+        background-color: $lemon;
+    }
+
+    &::after{
+        width: 100%;
+        border: 1px solid $lemon;
+        border-top: 0;
+        opacity: 0;
+    }
+
+    &:hover{
+        color: $lemon;
+
+        &::before{
+            width: 0;
+            animation: width 1500ms ease forwards;
+        }
+
+        &::after{
+            opacity: 1;
+        }
+    }
+}
+
+@keyframes width{
+    0%{
+        width: 0;
+    }
+
+    50%{
+        width: 100%;
+    }
+
+    100%{
+        width: 70%;
+    }
+}
+
   
   /* configuracion de estilo Primer HERO banner */
   
@@ -423,7 +539,9 @@
       }
 
       /*formulario de contacto final*/
+
       
+
       
   
 

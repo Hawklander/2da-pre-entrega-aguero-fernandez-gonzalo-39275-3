@@ -45,6 +45,98 @@ header {
   margin-left: -1.8em;
 }
 
+.link--1 {
+  padding: 0 6px;
+}
+.link--1::before, .link--1::after {
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  height: 0.1em;
+  width: 0;
+}
+.link--1::before {
+  left: 0;
+}
+.link--1::after {
+  background-color: #ff29ad;
+  right: 0;
+}
+.link--1:hover {
+  color: #ff29ad;
+}
+.link--1:hover::before {
+  width: 60%;
+  transition: width 250ms ease;
+  background-color: #ff29ad;
+}
+.link--1:hover::after {
+  width: 100%;
+  background-color: transparent;
+}
+
+/*
+    ** border box
+*/
+*,
+*:before,
+*::after {
+  box-sizing: border-box;
+}
+
+.link {
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  width: fit-content;
+  z-index: 0;
+  transition: all 450ms ease;
+}
+.link::after, .link::before {
+  content: "";
+  display: block;
+  position: absolute;
+  transition: width 540ms, opacity 300ms ease;
+}
+
+/* LINK 2    */
+.link--2::before, .link--2::after {
+  height: 0.1em;
+  bottom: -1px;
+}
+.link--2::before {
+  width: 0;
+  background-color: rgba(233, 219, 17, 0.8980392157);
+}
+.link--2::after {
+  width: 100%;
+  border: 1px solid rgba(233, 219, 17, 0.8980392157);
+  border-top: 0;
+  opacity: 0;
+}
+.link--2:hover {
+  color: rgba(233, 219, 17, 0.8980392157);
+}
+.link--2:hover::before {
+  width: 0;
+  animation: width 1500ms ease forwards;
+}
+.link--2:hover::after {
+  opacity: 1;
+}
+
+@keyframes width {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 70%;
+  }
+}
 /* configuracion de estilo Primer HERO banner */
 .banner {
   background: url(../imagenes/imagenauditoria.jpg) fixed center/cover;
