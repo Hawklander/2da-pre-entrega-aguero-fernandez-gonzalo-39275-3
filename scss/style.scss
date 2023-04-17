@@ -32,45 +32,10 @@
   }
 
 
-  .link--1{
-    padding: 0 6px;
 
-    &::before,
-    &::after{
-        top: 0;
-        bottom: 0;
-        margin: auto 0;
-        height: 0.1em;
-        width: 0;
-    }
-
-    &::before{
-        left: 0;
-    }
-
-    &::after{
-        background-color: $pink;
-        right: 0;
-    }
-
-    &:hover{
-        color: $pink;
-        
-        &::before{
-            width: 60%;
-            transition: width 250ms ease;
-            background-color: $pink;
-        }
-
-        &::after{
-            width: 100%;
-            background-color: transparent;
-        }
-    }
-}
 
   /*
-    ** border box
+    ** Efecto en Navbar
 */
 *,
 *:before,
@@ -97,6 +62,42 @@
     }
 }
 
+.link--1{
+  padding: 0 6px;
+
+  &::before,
+  &::after{
+      top: 0;
+      bottom: 0;
+      margin: auto 0;
+      height: 0.1em;
+      width: 0;
+  }
+
+  &::before{
+      left: 0;
+  }
+
+  &::after{
+      background-color: $pink;
+      right: 0;
+  }
+
+  &:hover{
+      color: $pink;
+      
+      &::before{
+          width: 60%;
+          transition: width 250ms ease;
+          background-color: $pink;
+      }
+
+      &::after{
+          width: 100%;
+          background-color: transparent;
+      }
+  }
+}
 
 /* LINK 2    */
 .link--2{

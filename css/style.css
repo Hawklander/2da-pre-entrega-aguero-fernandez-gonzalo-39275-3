@@ -45,6 +45,31 @@ header {
   margin-left: -1.8em;
 }
 
+/*
+    ** Efecto en Navbar
+*/
+*,
+*:before,
+*::after {
+  box-sizing: border-box;
+}
+
+.link {
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  width: fit-content;
+  z-index: 0;
+  transition: all 450ms ease;
+}
+.link::after, .link::before {
+  content: "";
+  display: block;
+  position: absolute;
+  transition: width 540ms, opacity 300ms ease;
+}
+
 .link--1 {
   padding: 0 6px;
 }
@@ -73,31 +98,6 @@ header {
 .link--1:hover::after {
   width: 100%;
   background-color: transparent;
-}
-
-/*
-    ** border box
-*/
-*,
-*:before,
-*::after {
-  box-sizing: border-box;
-}
-
-.link {
-  position: relative;
-  text-decoration: none;
-  text-align: center;
-  cursor: pointer;
-  width: fit-content;
-  z-index: 0;
-  transition: all 450ms ease;
-}
-.link::after, .link::before {
-  content: "";
-  display: block;
-  position: absolute;
-  transition: width 540ms, opacity 300ms ease;
 }
 
 /* LINK 2    */
