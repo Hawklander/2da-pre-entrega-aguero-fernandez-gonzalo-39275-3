@@ -37,7 +37,7 @@ header {
 .navper ul a {
   font-family: "Raleway", sans-serif;
   font-size: x-large;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .logogen {
@@ -308,7 +308,8 @@ header {
 }
 
 .lead {
-  font-size: 25px;
+  font-size: 1.25em;
+  font-family: "Roboto", sans-serif;
 }
 
 /*formulario de contacto inicio*/
