@@ -99,22 +99,6 @@ header {
   font-family: "Roboto", sans-serif;
 }
 
-.link {
-  padding: 50px;
-  color: #fff;
-  font-size: 2em;
-  display: inline-block;
-  font-family: "Roboto", sans-serif;
-  position: relative;
-}
-.link:hover {
-  color: bisque;
-}
-.link a {
-  padding: 10px;
-  margin: 50pxs;
-}
-
 /* Boton configuracion general */
 .btn3 a {
   text-decoration: none;
