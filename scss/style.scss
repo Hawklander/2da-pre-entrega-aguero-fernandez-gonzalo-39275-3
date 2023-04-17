@@ -95,7 +95,7 @@
   .link {
     padding: 50px;
     color: $blanco;
-    font-size: 25px;
+    font-size: 2em;
     display: inline-block;
     font-family: 'Roboto', sans-serif;
     position: relative;
@@ -317,6 +317,11 @@
     width: 2em;
 
 
+  }
+
+  .lead {
+
+    font-size: 25px;
   }
 
 /*formulario de contacto inicio*/ 

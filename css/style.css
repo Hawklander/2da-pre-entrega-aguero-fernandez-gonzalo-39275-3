@@ -102,7 +102,7 @@ header {
 .link {
   padding: 50px;
   color: #fff;
-  font-size: 25px;
+  font-size: 2em;
   display: inline-block;
   font-family: "Roboto", sans-serif;
   position: relative;
@@ -305,6 +305,10 @@ header {
 
 .logosocial {
   width: 2em;
+}
+
+.lead {
+  font-size: 25px;
 }
 
 /*formulario de contacto inicio*/
