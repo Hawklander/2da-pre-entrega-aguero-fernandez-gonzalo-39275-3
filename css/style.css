@@ -137,6 +137,10 @@ header {
     width: 70%;
   }
 }
+.stickycustom {
+  margin-top: -1 !important;
+}
+
 /* configuracion de estilo Primer HERO banner */
 .banner {
   background: url(../imagenes/imagenauditoria.jpg) fixed center/cover;
