@@ -18,6 +18,14 @@
     display: none;
   }
 }
+@media screen and (max-width: 380px) {
+  .aseh3custom {
+    margin-top: 5em !important;
+  }
+  .conh3custom {
+    margin-top: 5em !important;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -510,14 +518,6 @@ header {
 
 .h3custom {
   margin-top: 2em !important;
-}
-
-.aseh3custom {
-  margin-top: 5em !important;
-}
-
-.conh3custom {
-  margin-top: 5em !important;
 }
 
 /*formulario de contacto final*/
