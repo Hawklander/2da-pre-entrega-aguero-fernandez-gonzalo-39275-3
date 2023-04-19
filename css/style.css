@@ -30,6 +30,8 @@
 html,
 body {
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 /* Fuentes desde import  */
@@ -166,6 +168,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow-x: hidden;
 }
 .banner1::before {
   content: "";
@@ -258,6 +261,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow-x: hidden;
 }
 .banner3::before {
   content: "";
