@@ -508,6 +508,18 @@ header {
   margin-right: 3%;
 }
 
+.h3custom {
+  margin-top: 2em !important;
+}
+
+.aseh3custom {
+  margin-top: 5em !important;
+}
+
+.conh3custom {
+  margin-top: 5em !important;
+}
+
 /*formulario de contacto final*/
 
 /*# sourceMappingURL=style.css.map */
