@@ -27,6 +27,11 @@
   font-family: "Roboto", sans-serif;
 }
 
+html,
+body {
+  width: 100%;
+}
+
 /* Fuentes desde import  */
 /* Barra de navegacion */
 header {
@@ -360,13 +365,6 @@ header {
   line-height: 2em;
   font-size: 0.9;
   font-family: "Roboto", sans-serif;
-}
-
-.duda {
-  display: inline-flex;
-}
-.duda div {
-  margin: 10px;
 }
 
 .fotopintura {
